@@ -1,0 +1,13 @@
+# Official OpenWrt 23.05.5 mediatek/filogic package additions.
+# Keep this conservative: no SFE or TurboACC in ImageBuilder mode.
+luci
+luci-proto-ppp
+luci-proto-ipv6
+ppp
+ppp-mod-pppoe
+rp-pppoe-common
+odhcp6c
+firewall4
+kmod-nft-offload
+ethtool
+iperf3

@@ -1,0 +1,8 @@
+GPL-2.0-or-later
+
+This repository is intended to be distributed under the GNU General Public License v2.0 or later, unless a file states otherwise.
+
+Important: UltimateWrt is based on OpenWrt and may include components under different open-source licenses. Keep upstream license notices and source/build information available when distributing firmware images.
+
+For the full GPL-2.0 license text, see:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt

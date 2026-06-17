@@ -1,0 +1,33 @@
+# Keep this list compatible with official OpenWrt 23.05.5 x86/64 packages.
+# Use ImageBuilder for packages that already exist upstream.
+luci
+luci-proto-ppp
+luci-proto-ipv6
+ppp
+ppp-mod-pppoe
+rp-pppoe-common
+kmod-pppoe
+odhcp6c
+firewall4
+
+# N100 mini PC hardware support.
+kmod-igc
+kmod-r8125
+kmod-r8169
+kmod-e1000e
+kmod-nvme
+kmod-ata-ahci
+block-mount
+grub2-efi
+irqbalance
+
+# Diagnostics and first-boot repair tools.
+ethtool
+pciutils
+usbutils
+lsblk
+fdisk
+parted
+resize2fs
+losetup
+iperf3

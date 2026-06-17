@@ -1,0 +1,28 @@
+# Build/download/work outputs
+/downloads/
+/work/
+/artifacts/
+/releases/*.img
+/releases/*.img.gz
+/releases/*.bin
+/releases/*.tar.gz
+/releases/*.7z
+/releases/*.zip
+/openwrt/
+
+# Logs/cache
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local env/secrets
+.env
+*.secret
+*.key

@@ -1,0 +1,24 @@
+{
+	"admin/theultimate": {
+		"title": "The Ultimate",
+		"action": {
+			"type": "alias",
+			"target": "admin/theultimate/overview"
+		},
+		"depends": {
+			"acl": [ "luci-app-theultimate" ]
+		},
+		"index": 15
+	},
+	"admin/theultimate/overview": {
+		"title": "Overview",
+		"action": {
+			"type": "view",
+			"path": "theultimate/overview"
+		},
+		"depends": {
+			"acl": [ "luci-app-theultimate" ]
+		},
+		"index": 1
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "luci-app-theultimate": {
+    "description": "Grant read-only access for The Ultimate dashboard",
+    "read": {
+      "ubus": {
+        "system": [ "board", "info" ],
+        "network.interface": [ "dump" ],
+        "network.device": [ "status" ]
+      }
+    }
+  }
+}

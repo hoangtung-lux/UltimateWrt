@@ -1,0 +1,19 @@
+# Official OpenWrt 25.12.4 rockchip/armv8 package additions.
+# NanoPi R5S support is not in the OpenWrt 23.05.5 rockchip/armv8 release index.
+luci
+luci-proto-ppp
+luci-proto-ipv6
+ppp
+ppp-mod-pppoe
+rp-pppoe-common
+odhcp6c
+firewall4
+
+# Hardware support and diagnostics.
+kmod-igc
+kmod-r8169
+irqbalance
+ethtool
+pciutils
+usbutils
+iperf3
